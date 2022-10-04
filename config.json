@@ -1,6 +1,6 @@
 {
   "_comment": "===== MODEL CONFIGURATION =====",
-  "model_dir": "models/a_very_robust_model",
+  "model_dir": "models/adv_trained",
 
   "_comment": "===== TRAINING CONFIGURATION =====",
   "random_seed": 4557077,
@@ -17,7 +17,7 @@
 
   "_comment": "=====ADVERSARIAL EXAMPLES CONFIGURATION=====",
   "epsilon": 0.3,
-  "k": 40,
+  "k": 100,
   "a": 0.01,
   "random_start": true,
   "loss_func": "xent",
