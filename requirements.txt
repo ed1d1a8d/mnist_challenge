@@ -1,0 +1,22 @@
+# conda activate mamba-tmp
+# mamba create --prefix=/var/tmp/scratch/mnist-challenge-tmp -c conda-forge mamba python=3.7 tensorflow-gpu=1.15
+# conda activate mnist-challenge-tmp
+# pip install -r requirements.txt
+
+# Computational libraries
+numpy
+pandas
+
+# Plotting libraries
+matplotlib
+seaborn
+
+# Utilities
+black
+flake8
+gpustat
+isort
+ipywidgets
+jupyterlab
+mypy
+tqdm
